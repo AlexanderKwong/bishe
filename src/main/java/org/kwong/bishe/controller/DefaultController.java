@@ -12,6 +12,6 @@ public class DefaultController {
 
     @RequestMapping(value = "/mnvies")
     public String defaultHomePage(){
-        return "index";
+        return "movie/index";
     }
 }
