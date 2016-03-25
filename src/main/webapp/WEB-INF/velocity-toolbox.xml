@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolbox>   
+<!-- 	<tool>
+	    <key>path</key>
+	    <scope>application</scope>
+	    <class>lzserj.view.base.consts.Path</class>
+	</tool>	 -->
+	<tool>
+	   <key>date</key>
+	   <scope>application</scope>
+	   <class>org.apache.velocity.tools.generic.DateTool</class>
+	</tool>	
+	<tool>
+	    <key>d</key>
+	    <scope>application</scope>
+	    <class>org.kwong.bishe.common.util.DateUtil</class>
+	</tool>		
+	<tool>
+	    <key>sub</key>
+	    <scope>application</scope>
+	    <class>org.kwong.bishe.common.util.SubstringDisplay</class>
+	</tool>	 
+	<tool>
+	    <key>numerical</key>
+	    <scope>request</scope>
+	    <class>org.kwong.bishe.common.util.NumericalUtil</class>
+	</tool>
+	<tool>
+	    <key>vltEncry</key>
+	    <scope>request</scope>
+	    <class>org.kwong.bishe.common.util.VideoUrlStrEncryptUtil</class>
+	</tool>		
+	
+	<tool>
+	    <key>StringUtil</key>
+	    <scope>application</scope>
+	    <class>org.kwong.bishe.common.util.StringUtil</class>
+	</tool>	
+	<tool>
+	    <key>Arith</key>
+	    <scope>application</scope>
+	    <class>org.kwong.bishe.common.util.Arith</class>
+	</tool>
+</toolbox>

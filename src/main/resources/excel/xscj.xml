@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<models>
+	<model id="xscjwk" class="java.util.HashMap">
+		<property name="sequence" column="1" excelTitleName="考号" dataType="String" />
+		<property name="name" column="2" excelTitleName="姓名" dataType="String" />
+		<property name="schname" column="3" excelTitleName="学校" dataType="String" />
+		<property name="areaname" column="4" excelTitleName="区县" dataType="String" />
+		<property name="YW" column="5" excelTitleName="语文分数" dataType="String" />
+		<property name="YWXM" column="6" excelTitleName="语文校名" dataType="String" />
+		<property name="YWQM" column="7" excelTitleName="语文区名" dataType="String" />
+		<property name="YWJM" column="8" excelTitleName="语文级名" dataType="String" />
+		<property name="YY" column="9" excelTitleName="英语分数" dataType="String" />
+		<property name="YYXM" column="10" excelTitleName="英语校名" dataType="String" />
+		<property name="YYQM" column="11" excelTitleName="英语区名" dataType="String" />
+		<property name="YYJM" column="12" excelTitleName="英语级名" dataType="String" />
+		<property name="DL" column="13" excelTitleName="地理分数" dataType="String" />
+		<property name="DLXM" column="14" excelTitleName="地理校名" dataType="String" />
+		<property name="DLQM" column="15" excelTitleName="地理区名" dataType="String" />
+		<property name="DLJM" column="16" excelTitleName="地理级名" dataType="String" />
+		<property name="LS" column="17" excelTitleName="历史分数" dataType="String" />
+		<property name="LSXM" column="18" excelTitleName="历史校名" dataType="String" />
+		<property name="LSQM" column="19" excelTitleName="历史区名" dataType="String" />
+		<property name="LSJM" column="20" excelTitleName="历史级名" dataType="String" />
+		<property name="ZZ" column="21" excelTitleName="政治分数" dataType="String" />
+		<property name="ZZXM" column="22" excelTitleName="政治校名" dataType="String" />
+		<property name="ZZQM" column="23" excelTitleName="政治区名" dataType="String" />
+		<property name="ZZJM" column="24" excelTitleName="政治级名" dataType="String" />
+		<property name="WSX" column="25" excelTitleName="文科数学分数" dataType="String" />
+		<property name="WSXXM" column="26" excelTitleName="文科数学校名" dataType="String" />
+		<property name="WSXQM" column="27" excelTitleName="文科数学区名" dataType="String" />
+		<property name="WSXJM" column="28" excelTitleName="文科数学级名" dataType="String" />
+		<property name="WZ" column="29" excelTitleName="文综分数" dataType="String" />
+		<property name="WZXM" column="30" excelTitleName="文综校名" dataType="String" />
+		<property name="WZQM" column="31" excelTitleName="文综区名" dataType="String" />
+		<property name="WZJM" column="32" excelTitleName="文综级名" dataType="String" />
+	</model>
+	<model id="xscjlk" class="java.util.HashMap">
+		<property name="sequence" column="1" excelTitleName="考号" dataType="String" />
+		<property name="name" column="2" excelTitleName="姓名" dataType="String" />
+		<property name="schname" column="3" excelTitleName="学校" dataType="String" />
+		<property name="areaname" column="4" excelTitleName="区县" dataType="String" />
+		<property name="YW" column="5" excelTitleName="语文分数" dataType="String" />
+		<property name="YWXM" column="6" excelTitleName="语文校名" dataType="String" />
+		<property name="YWQM" column="7" excelTitleName="语文区名" dataType="String" />
+		<property name="YWJM" column="8" excelTitleName="语文级名" dataType="String" />
+		<property name="YY" column="9" excelTitleName="英语分数" dataType="String" />
+		<property name="YYXM" column="10" excelTitleName="英语校名" dataType="String" />
+		<property name="YYQM" column="11" excelTitleName="英语区名" dataType="String" />
+		<property name="YYJM" column="12" excelTitleName="英语级名" dataType="String" />
+		<property name="SW" column="13" excelTitleName="生物分数" dataType="String" />
+		<property name="SWXM" column="14" excelTitleName="生物校名" dataType="String" />
+		<property name="SWQM" column="15" excelTitleName="生物区名" dataType="String" />
+		<property name="SWJM" column="16" excelTitleName="生物级名" dataType="String" />
+		<property name="HX" column="17" excelTitleName="化学分数" dataType="String" />
+		<property name="HXXM" column="18" excelTitleName="化学校名" dataType="String" />
+		<property name="HXQM" column="19" excelTitleName="化学区名" dataType="String" />
+		<property name="HXJM" column="20" excelTitleName="化学级名" dataType="String" />
+		<property name="WL" column="21" excelTitleName="物理分数" dataType="String" />
+		<property name="WLXM" column="22" excelTitleName="物理校名" dataType="String" />
+		<property name="WLQM" column="23" excelTitleName="物理区名" dataType="String" />
+		<property name="WLJM" column="24" excelTitleName="物理级名" dataType="String" />
+		<property name="LSX" column="25" excelTitleName="理科数学分数" dataType="String" />
+		<property name="LSXXM" column="26" excelTitleName="理科数学校名" dataType="String" />
+		<property name="LSXQM" column="27" excelTitleName="理科数学区名" dataType="String" />
+		<property name="LSXJM" column="28" excelTitleName="理科数学级名" dataType="String" />
+		<property name="LZ" column="29" excelTitleName="理综分数" dataType="String" />
+		<property name="LZXM" column="30" excelTitleName="理综校名" dataType="String" />
+		<property name="LZQM" column="31" excelTitleName="理综区名" dataType="String" />
+		<property name="LZJM" column="32" excelTitleName="理综级名" dataType="String" />
+	</model>
+</models>

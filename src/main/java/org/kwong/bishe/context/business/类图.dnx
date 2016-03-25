@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational 建模平台（com.ibm.xtools.rmp）" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_-V2YUJlnEeWJ5I1GSHAbNg" type="Class" name="类图.dnx">
+  <eAnnotations xmi:id="_-V2YUZlnEeWJ5I1GSHAbNg" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_-V2YUplnEeWJ5I1GSHAbNg" key="com.ibm.xtools.viz.webservice.capabilty" value="1"/>
+    <details xmi:id="_-cfy4JlnEeWJ5I1GSHAbNg" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_-c6poJlnEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-dBXUJlnEeWJ5I1GSHAbNg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_-dBXUZlnEeWJ5I1GSHAbNg" width="530" height="530"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_-dBXUplnEeWJ5I1GSHAbNg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_-dClcJlnEeWJ5I1GSHAbNg" type="Kind"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_-dClcZlnEeWJ5I1GSHAbNg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_-dClcplnEeWJ5I1GSHAbNg" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_-dDMgJlnEeWJ5I1GSHAbNg" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_-dEaoJlnEeWJ5I1GSHAbNg" type="OperationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_-dEaoZlnEeWJ5I1GSHAbNg" visible="false" type="SignalCompartment"/>
+    <element xmi:type="uml:Interface" href="mmi:///#jsrctype%5Ename=ISpringContext%5Bjcu%5Ename=ISpringContext.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D$uml.Interface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-c6poZlnEeWJ5I1GSHAbNg" x="12804" y="10164"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_A-MTkJloEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_A-PW4JloEeWJ5I1GSHAbNg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_A-PW4ZloEeWJ5I1GSHAbNg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_A-PW4ploEeWJ5I1GSHAbNg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_A-PW45loEeWJ5I1GSHAbNg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_A-P98JloEeWJ5I1GSHAbNg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_A-P98ZloEeWJ5I1GSHAbNg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_A-RzIJloEeWJ5I1GSHAbNg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_A-SaMJloEeWJ5I1GSHAbNg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=SpringContextImp%5Bjcu%5Ename=SpringContextImp.java%5Bjpack%5Ename=lzserj.view.base.init%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A-MTkZloEeWJ5I1GSHAbNg" x="4752" y="2772"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_D2PewJloEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_D2QF0JloEeWJ5I1GSHAbNg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_D2QF0ZloEeWJ5I1GSHAbNg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_D2Qs4JloEeWJ5I1GSHAbNg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_D2Qs4ZloEeWJ5I1GSHAbNg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_D2Qs4ploEeWJ5I1GSHAbNg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_D2Qs45loEeWJ5I1GSHAbNg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_D2R7AJloEeWJ5I1GSHAbNg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_D2R7AZloEeWJ5I1GSHAbNg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=SpringContextImp%5Bjcu%5Ename=SpringContextImp.java%5Bjpack%5Ename=lzserj%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D2PewZloEeWJ5I1GSHAbNg" x="17424" y="2772"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_PKDVUJloEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PKD8YJloEeWJ5I1GSHAbNg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_PKD8YZloEeWJ5I1GSHAbNg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_PKEjcJloEeWJ5I1GSHAbNg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_PKEjcZloEeWJ5I1GSHAbNg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_PKFKgJloEeWJ5I1GSHAbNg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_PKFKgZloEeWJ5I1GSHAbNg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_PKGYoJloEeWJ5I1GSHAbNg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_PKGYoZloEeWJ5I1GSHAbNg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=BusinessContainer%5Bjcu%5Ename=BusinessContainer.java%5Bjpack%5Ename=lzserj%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PKDVUZloEeWJ5I1GSHAbNg" x="23372" y="1822"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_Rmm3UJloEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RmneYJloEeWJ5I1GSHAbNg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_RmneYZloEeWJ5I1GSHAbNg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_RmneYploEeWJ5I1GSHAbNg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_RmoFcJloEeWJ5I1GSHAbNg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_RmoFcZloEeWJ5I1GSHAbNg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_RmoFcploEeWJ5I1GSHAbNg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_RmpTkJloEeWJ5I1GSHAbNg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_RmpTkZloEeWJ5I1GSHAbNg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=SpringUtil%5Bjcu%5Ename=SpringUtil.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rmm3UZloEeWJ5I1GSHAbNg" x="17952" y="10164"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_YxeikJloEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_YxeikploEeWJ5I1GSHAbNg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_YxfJoJloEeWJ5I1GSHAbNg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_YxfJoZloEeWJ5I1GSHAbNg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_YxfJoploEeWJ5I1GSHAbNg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_YxfJo5loEeWJ5I1GSHAbNg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_YxfJpJloEeWJ5I1GSHAbNg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_YxgXwJloEeWJ5I1GSHAbNg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_YxgXwZloEeWJ5I1GSHAbNg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=XxtBusinessBootCfg%5Bjcu%5Ename=XxtBusinessBootCfg.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YxeikZloEeWJ5I1GSHAbNg" x="31680" y="4884"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_caAIcJloEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_caAvgJloEeWJ5I1GSHAbNg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_caAvgZloEeWJ5I1GSHAbNg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_caAvgploEeWJ5I1GSHAbNg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_caAvg5loEeWJ5I1GSHAbNg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_caAvhJloEeWJ5I1GSHAbNg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_caAvhZloEeWJ5I1GSHAbNg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_caB9oJloEeWJ5I1GSHAbNg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_caB9oZloEeWJ5I1GSHAbNg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=XxtFactory%5Bjcu%5Ename=XxtFactory.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_caAIcZloEeWJ5I1GSHAbNg" x="38280" y="4884"/>
+  </children>
+  <element xsi:nil="true"/>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_BBUgEJloEeWJ5I1GSHAbNg" source="_A-MTkJloEeWJ5I1GSHAbNg" target="_-c6poJlnEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_BBXjYJloEeWJ5I1GSHAbNg" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_BBXjYploEeWJ5I1GSHAbNg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_BBXjY5loEeWJ5I1GSHAbNg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BBXjYZloEeWJ5I1GSHAbNg" y="-186"/>
+    </children>
+    <element xmi:type="uml:InterfaceRealization" href="mmi:///#jimpl%5Bjsrctype%5Ename=SpringContextImp%5Bjcu%5Ename=SpringContextImp.java%5Bjpack%5Ename=lzserj.view.base.init%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=ISpringContext%5Bjcu%5Ename=ISpringContext.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D$uml.InterfaceRealization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BBUgEZloEeWJ5I1GSHAbNg" points="[40, 102, 40, -2221]$[40, 2323, 40, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BG5joJloEeWJ5I1GSHAbNg" id="(0.500072727272727,0.9707520891364902)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BG6KsJloEeWJ5I1GSHAbNg" id="(0.49999999999999944,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_D5DiMJloEeWJ5I1GSHAbNg" source="_D2PewJloEeWJ5I1GSHAbNg" target="_-c6poJlnEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_D5EJQZloEeWJ5I1GSHAbNg" type="NameLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_D5EwUJloEeWJ5I1GSHAbNg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_D5EwUZloEeWJ5I1GSHAbNg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D5EJQploEeWJ5I1GSHAbNg" y="-186"/>
+    </children>
+    <element xmi:type="uml:InterfaceRealization" href="mmi:///#jimpl%5Bjsrctype%5Ename=SpringContextImp%5Bjcu%5Ename=SpringContextImp.java%5Bjpack%5Ename=lzserj%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=ISpringContext%5Bjcu%5Ename=ISpringContext.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D$uml.InterfaceRealization"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D5EJQJloEeWJ5I1GSHAbNg" points="[97, 100, 4968, -5518]$[97, 3761, 4968, -1857]$[-4887, 3761, -16, -1857]$[-4887, 5618, -16, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D-fb0JloEeWJ5I1GSHAbNg" id="(0.5001304801670137,0.9469429004547751)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D-gC4JloEeWJ5I1GSHAbNg" id="(0.49999999999999944,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_PNXIAJloEeWJ5I1GSHAbNg" source="_D2PewJloEeWJ5I1GSHAbNg" target="_PKDVUJloEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PNYWIJloEeWJ5I1GSHAbNg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_PNY9MJloEeWJ5I1GSHAbNg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_PNY9MploEeWJ5I1GSHAbNg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_PNY9MZloEeWJ5I1GSHAbNg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PNYWIZloEeWJ5I1GSHAbNg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=SpringContextImp%5Bjcu%5Ename=SpringContextImp.java%5Bjpack%5Ename=lzserj%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=BusinessContainer%5Bjcu%5Ename=BusinessContainer.java%5Bjpack%5Ename=lzserj%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PNXIAZloEeWJ5I1GSHAbNg" points="[78, 70, -2195, 44]$[2273, 70, 0, 44]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PS7kgJloEeWJ5I1GSHAbNg" id="(0.9793841336116901,0.6666667489104345)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PS8LkJloEeWJ5I1GSHAbNg" id="(-7.439629462355241E-16,0.4133576495617031)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_PNZkQJloEeWJ5I1GSHAbNg" source="_PKDVUJloEeWJ5I1GSHAbNg" target="_D2PewJloEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PNayYJloEeWJ5I1GSHAbNg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_PNayYploEeWJ5I1GSHAbNg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_PNbZcZloEeWJ5I1GSHAbNg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_PNbZcJloEeWJ5I1GSHAbNg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PNayYZloEeWJ5I1GSHAbNg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=BusinessContainer%5Bjcu%5Ename=BusinessContainer.java%5Bjpack%5Ename=lzserj%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=SpringContextImp%5Bjcu%5Ename=SpringContextImp.java%5Bjpack%5Ename=lzserj%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PNZkQZloEeWJ5I1GSHAbNg" points="[0, 31, 2273, 35]$[-2195, 31, 78, 35]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PS8yoJloEeWJ5I1GSHAbNg" id="(-7.439629462355241E-16,0.29319977195753644)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PS9ZsJloEeWJ5I1GSHAbNg" id="(0.9793841336116901,0.33333337445521727)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_RpfzQJloEeWJ5I1GSHAbNg" source="_Rmm3UJloEeWJ5I1GSHAbNg" target="_-c6poJlnEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RphocJloEeWJ5I1GSHAbNg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_RpiPgJloEeWJ5I1GSHAbNg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_RpiPgploEeWJ5I1GSHAbNg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_RpiPgZloEeWJ5I1GSHAbNg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RphocZloEeWJ5I1GSHAbNg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=SpringUtil%5Bjcu%5Ename=SpringUtil.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=ISpringContext%5Bjcu%5Ename=ISpringContext.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RpfzQZloEeWJ5I1GSHAbNg" points="[-2458, -1555, 3523, 879]$[-4355, -1555, 1626, 879]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RvBMcJloEeWJ5I1GSHAbNg" id="(0.5,0.9602272727272724)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RvBzgJloEeWJ5I1GSHAbNg" id="(0.49999999999999944,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Y0R-8JloEeWJ5I1GSHAbNg" source="_PKDVUJloEeWJ5I1GSHAbNg" target="_YxeikJloEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y0TNEJloEeWJ5I1GSHAbNg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Y0TNEploEeWJ5I1GSHAbNg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Y0T0IZloEeWJ5I1GSHAbNg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Y0T0IJloEeWJ5I1GSHAbNg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y0TNEZloEeWJ5I1GSHAbNg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=BusinessContainer%5Bjcu%5Ename=BusinessContainer.java%5Bjpack%5Ename=lzserj%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=XxtBusinessBootCfg%5Bjcu%5Ename=XxtBusinessBootCfg.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Y0R-8ZloEeWJ5I1GSHAbNg" points="[78, 1782, -3497, 0]$[3575, 1782, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y3frAJloEeWJ5I1GSHAbNg" id="(0.9838445807770961,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y3gSEJloEeWJ5I1GSHAbNg" id="(0.0,0.500170706725845)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Y0UbMJloEeWJ5I1GSHAbNg" source="_YxeikJloEeWJ5I1GSHAbNg" target="_Rmm3UJloEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y0VpUJloEeWJ5I1GSHAbNg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Y0VpUploEeWJ5I1GSHAbNg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Y0WQYJloEeWJ5I1GSHAbNg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Y0VpU5loEeWJ5I1GSHAbNg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y0VpUZloEeWJ5I1GSHAbNg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=XxtBusinessBootCfg%5Bjcu%5Ename=XxtBusinessBootCfg.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=SpringUtil%5Bjcu%5Ename=SpringUtil.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Y0UbMZloEeWJ5I1GSHAbNg" points="[53, 102, 13268, -4238]$[53, 3178, 13268, -1162]$[-13175, 3178, 40, -1162]$[-13175, 4340, 40, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y3g5IJloEeWJ5I1GSHAbNg" id="(0.666666403247016,0.96415158757255)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y3hgMJloEeWJ5I1GSHAbNg" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Y0WQYZloEeWJ5I1GSHAbNg" source="_YxeikJloEeWJ5I1GSHAbNg" target="_-c6poJlnEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y0W3cJloEeWJ5I1GSHAbNg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Y0XegJloEeWJ5I1GSHAbNg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Y0XegploEeWJ5I1GSHAbNg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Y0XegZloEeWJ5I1GSHAbNg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y0W3cZloEeWJ5I1GSHAbNg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=XxtBusinessBootCfg%5Bjcu%5Ename=XxtBusinessBootCfg.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=ISpringContext%5Bjcu%5Ename=ISpringContext.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Y0WQYploEeWJ5I1GSHAbNg" points="[26, 102, 17601, -4238]$[26, 2649, 17601, -1691]$[-17535, 2649, 40, -1691]$[-17535, 4340, 40, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y3iHQJloEeWJ5I1GSHAbNg" id="(0.333333201623508,0.96415158757255)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y3iuUJloEeWJ5I1GSHAbNg" id="(0.49999999999999944,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_cdHG0JloEeWJ5I1GSHAbNg" source="_YxeikJloEeWJ5I1GSHAbNg" target="_caAIcJloEeWJ5I1GSHAbNg" fontName="微软雅黑" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cdHt4JloEeWJ5I1GSHAbNg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_cdIU8JloEeWJ5I1GSHAbNg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_cdI8AJloEeWJ5I1GSHAbNg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_cdIU8ZloEeWJ5I1GSHAbNg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cdHt4ZloEeWJ5I1GSHAbNg" x="90" y="-251"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=XxtBusinessBootCfg%5Bjcu%5Ename=XxtBusinessBootCfg.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=XxtFactory%5Bjcu%5Ename=XxtFactory.java%5Bjpack%5Ename=lzserj.business%5Bjsrcroot%5Esrcfolder=lzserj%5Bproject%5Eid=yyj-services%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cdHG0ZloEeWJ5I1GSHAbNg" points="[78, 27, -1736, 172]$[1814, 27, 0, 172]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cgPTUJloEeWJ5I1GSHAbNg" id="(0.9840178029536718,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cgP6YJloEeWJ5I1GSHAbNg" id="(0.0,0.500189393939394)"/>
+  </edges>
+</umlnotation:UMLDiagram>

@@ -1,0 +1,121 @@
+#******* 头部   ********#
+#set($title="全课网")
+#parse("weixin/html/part/header.html")
+ <style>
+.form-signin input[type="text"] {
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+a:hover {
+    text-decoration:none
+}
+a:active {
+    text-decoration:none
+}
+</style>
+
+<script type="text/javascript">
+var dy=false;//动态密码登录的标志 
+$(function (){
+$('.close').bind('closed.bs.alert', function () {
+	  // do something…
+	  alert("clo");
+	});
+	
+	function onBridgeReady(){
+	 WeixinJSBridge.call('hideOptionMenu');
+	}
+
+	if (typeof WeixinJSBridge == "undefined"){
+	    if( document.addEventListener ){
+	        document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+	    }else if (document.attachEvent){
+	        document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+	        document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+	    }
+	}else{
+	    onBridgeReady();
+	}
+});
+//登录事件
+function login(){
+		
+	var account =$("#account").val();
+	var password=$("#pwd").val();
+	var data=getValues('formDetail');
+// 	alert(data);
+	if(account==""){
+		$("#alertdiv").show();
+		$("#alertmsg").text("学号不能为空");
+		return false;
+	}else if(password==""){
+		$("#alertdiv").show();
+		$("#alertmsg").text("密码不能为空");
+		return false;
+	}else{
+		var url="/weixin/login";
+		if(dy){//动态密码登录
+			url="login.do?action=loginwithdynpsw"
+		}
+		jQuery.ajax({
+			  type: 'POST',
+			  url:url,
+			  data: data,
+			  cache:false,
+			  success: function (result){
+				  if(result.success){
+					//微信绑定成功的欢迎页面
+					  window.location.href="/weixin/bandiok";
+				  }else{
+					  $("#alertdiv").show();
+						$("#alertmsg").text("学号或密码错误");
+				  }
+					  
+			  },
+			  dataType: 'json',
+			  async:false, /*同步请求，请求过程中锁住浏览器*/
+			  error:function(XHR,msg,err){
+				  alert("查询操作出现异常"+msg);			  
+			  }
+			});
+	}
+	
+}
+
+
+</script>
+<div class="container" id="main"  >
+
+		<form class="form-signin" role="form" name="formDetail" id="formDetail"> 
+        <div ><a href="#" style="font-size:24px;">全课网·云阅卷</a><br><br></div>
+
+		<div class="alert alert-warning fade in" id="alertdiv" style="display: none;">
+			<button class="close" aria-hidden="true" data-dismiss="alert" id="my-alert" type="button">×</button>
+			<div style="width: 100%;text-align: center;"><span id="alertmsg"></span></div>
+		</div>
+		<h4 class="form-signin-heading">请登录即可完成绑定</h4>
+<!--         autofocus -->
+        <input id="account" name="account" type="text" class="form-control" value="" placeholder="账号 / 学生的考号" required="">
+        <input id="pwd" name="pwd" type="password" class="form-control" value="" placeholder="密码 / 默认是123456" required="">
+        
+        <button class="btn btn-lg btn-success btn-block" onclick="login()" type="button">登&nbsp;&nbsp;录</button>
+<!--         <h5>没有帐号？<a href="/regist.do?action=weixinindex&userType=&weixin=">马上免费注册</a> -->
+<!--         <a href="javascript:onRandom();" id="getvc" style="color:#0066cc;float: right;">忘记密码</a> -->
+<!-- 					<span id="notice" style="display: none; margin-left: 10px;color: red;float: right;">(提示：<span	id="dd">60</span>秒后可以重新获取)</span> -->
+		
+					
+		<input type="hidden" id="weixin" name="weixin" value="$!weixin">
+		<input type="hidden" id="userType" name="userType" value="">
+      </form>
+</div>
+
+
+#********  页尾 ********#
+#parse("weixin/html/part/footer.html") 
+

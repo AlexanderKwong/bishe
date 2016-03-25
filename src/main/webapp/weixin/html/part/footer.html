@@ -1,0 +1,71 @@
+<!-- 	<footer class="footer" > -->
+<!-- 		&copy; 2013 广东全通教育股份有限公司&middot;版权所有 -->
+<!-- 		<a target="_blank" href="http://www.miitbeian.gov.cn/">粤ICP备10021799号-14</a><br> -->
+<!-- 		<p style="margin-bottom:0;padding-bottom:10px;" > -->
+<!-- 	</footer> -->
+	
+  </body>
+</html>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- jQuery文件务必在bootstrap.min.js 之前引入 --> 
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 --> 
+<script src="/weixin/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+(function(){
+	$('.dropdown').mouseenter(function(){
+		$(this).children('.dropdown-menu').show();
+		//$(this).addClass('classname');
+	}).mouseleave(function(){
+		$(this).children('.dropdown-menu').hide();
+		//$(this).children('.dropdown-toggle').removeClass('classname');
+	})
+})();
+</script>
+<script src="/weixin/js/jquery.unveil.min.js"></script>
+<script src="/weixin/js/isie.js"></script>
+<!-- 判断浏览器版本 -->	
+<script type="text/javascript">
+
+    function is_ie(){        
+      if(!ie){
+        //alert("您当前使用非Microsoft Internet Explorer.");
+	  }
+      else if (ie<=7){
+    	$("#downloadie8").show();
+        alert("您当前使用的浏览器版本过低。为获取良好的用户体验，\n请选择 IE 8.0 及其以上版本的Microsoft Internet Explorer."); 
+			
+	  }		
+　　}
+	is_ie();
+</script>
+<!-- #*
+========== 回到顶部 ==========
+1 需要确保调用此部分代码时已经加载jquery.js
+2 需要在全局样式中有#scrollUp的定义，下面的是一个样例
+#scrollUp {/*回到顶部*/
+	bottom: 20px;
+	right: 20px;
+	width: 38px;
+	height: 38px;
+	background: url(../images/top.png) no-repeat;
+}
+ *# -->
+ 
+<script src="/weixin/js/jquery.scrollUp.min.js"></script>
+<script >
+jQuery(document).ready(function(){
+ jQuery.scrollUp({
+    scrollName: 'scrollUp',
+    topDistance: '500',
+    topSpeed: 300,
+    animation: 'fade',
+    animationInSpeed: 200,
+    animationOutSpeed: 200,
+    scrollText: '',
+    activeOverlay: false
+  });
+});
+</script>  

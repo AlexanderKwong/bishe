@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<models>
+	<model id="kmfsdcity" class="java.util.HashMap">
+		<property name="FSD"  column="1"  excelTitleName="分数段"  dataType="String" />
+		<property name="RS"  column="2"  excelTitleName="人数"  dataType="String" />
+		<property name="BL"  column="3"  excelTitleName="比例"  dataType="String" />
+		<property name="LJS"  column="4"  excelTitleName="累计人数"  dataType="String" />
+		<property name="LJBL"  column="5"  excelTitleName="累计比例"  dataType="String" />
+<!-- 		<property name="WRS"  column="6"  excelTitleName="文科人数"  dataType="String" />
+		<property name="WBL"  column="7"  excelTitleName="文科比例"  dataType="String" />
+		<property name="WLJS"  column="8"  excelTitleName="文科累计人数"  dataType="String" />
+		<property name="WLJBL"  column="9"  excelTitleName="文科累计比例"  dataType="String" />
+		<property name="LRS"  column="10"  excelTitleName="理科人数"  dataType="String" />
+		<property name="LBL"  column="11"  excelTitleName="理科比例"  dataType="String" />
+		<property name="LLJS"  column="12"  excelTitleName="理科累计人数"  dataType="String" />
+		<property name="LLJBL"  column="13"  excelTitleName="理科累计比例"  dataType="String" />-->
+	</model> 
+	<model id="kmfsdarea" class="java.util.HashMap">
+		<property name="FSD"  column="1"  excelTitleName="分数段"  dataType="String" />
+		<property name="RS"  column="2"  excelTitleName="人数"  dataType="String" />
+		<property name="BL"  column="3"  excelTitleName="比例"  dataType="String" />
+		<property name="LJS"  column="4"  excelTitleName="累计人数"  dataType="String" />
+		<property name="LJBL"  column="5"  excelTitleName="累计比例"  dataType="String" />
+<!-- 		<property name="WRS"  column="6"  excelTitleName="文科人数"  dataType="String" />
+		<property name="WBL"  column="7"  excelTitleName="文科比例"  dataType="String" />
+		<property name="WLJS"  column="8"  excelTitleName="文科累计人数"  dataType="String" />
+		<property name="WLJBL"  column="9"  excelTitleName="文科累计比例"  dataType="String" />
+		<property name="LRS"  column="10"  excelTitleName="理科人数"  dataType="String" />
+		<property name="LBL"  column="11"  excelTitleName="理科比例"  dataType="String" />
+		<property name="LLJS"  column="12"  excelTitleName="理科累计人数"  dataType="String" />
+		<property name="LLJBL"  column="13"  excelTitleName="理科累计比例"  dataType="String" />-->
+	</model> 
+	<model id="kmfsdschool" class="java.util.HashMap">
+		<property name="FSD"  column="1"  excelTitleName="分数段"  dataType="String" />
+		<property name="RS"  column="2"  excelTitleName="人数"  dataType="String" />
+		<property name="BL"  column="3"  excelTitleName="比例"  dataType="String" />
+		<property name="LJS"  column="4"  excelTitleName="累计人数"  dataType="String" />
+		<property name="LJBL"  column="5"  excelTitleName="累计比例"  dataType="String" />
+<!-- 		<property name="WRS"  column="6"  excelTitleName="文科人数"  dataType="String" />
+		<property name="WBL"  column="7"  excelTitleName="文科比例"  dataType="String" />
+		<property name="WLJS"  column="8"  excelTitleName="文科累计人数"  dataType="String" />
+		<property name="WLJBL"  column="9"  excelTitleName="文科累计比例"  dataType="String" />
+		<property name="LRS"  column="10"  excelTitleName="理科人数"  dataType="String" />
+		<property name="LBL"  column="11"  excelTitleName="理科比例"  dataType="String" />
+		<property name="LLJS"  column="12"  excelTitleName="理科累计人数"  dataType="String" />
+		<property name="LLJBL"  column="13"  excelTitleName="理科累计比例"  dataType="String" /> -->
+	</model>
+	<model id="kmfsdclasses" class="java.util.HashMap">
+		<property name="FSD"  column="1"  excelTitleName="分数段"  dataType="String" />
+		<property name="RS"  column="2"  excelTitleName="人数"  dataType="String" />
+		<property name="BL"  column="3"  excelTitleName="比例"  dataType="String" />
+		<property name="LJS"  column="4"  excelTitleName="累计人数"  dataType="String" />
+		<property name="LJBL"  column="5"  excelTitleName="累计比例"  dataType="String" />
+<!-- 		<property name="WRS"  column="6"  excelTitleName="文科人数"  dataType="String" />
+		<property name="WBL"  column="7"  excelTitleName="文科比例"  dataType="String" />
+		<property name="WLJS"  column="8"  excelTitleName="文科累计人数"  dataType="String" />
+		<property name="WLJBL"  column="9"  excelTitleName="文科累计比例"  dataType="String" />
+		<property name="LRS"  column="10"  excelTitleName="理科人数"  dataType="String" />
+		<property name="LBL"  column="11"  excelTitleName="理科比例"  dataType="String" />
+		<property name="LLJS"  column="12"  excelTitleName="理科累计人数"  dataType="String" />
+		<property name="LLJBL"  column="13"  excelTitleName="理科累计比例"  dataType="String" /> -->
+	</model>
+</models>

@@ -1,0 +1,68 @@
+#******* 头部   ********#
+#set($title="全课网")
+#parse("weixin/html/part/header.html")
+ <style>
+
+</style>
+
+<div class="container" id="main">
+	<ul class="nav nav-pills" id="myTab">
+		<li class="active" onclick="querybutton()"><a href="#home" data-toggle="tab">按钮设置</a></li>
+		<li onclick="querycount()"><a href="#profile" data-toggle="tab">内容设置</a></li>
+	</ul>
+
+	<div class="tab-content">
+		<div class="tab-pane active" id="home"><div id="buttonset"></div></div>
+		<div class="tab-pane" id="profile"><div id="countset"></div></div>
+	</div>
+
+</div>
+<script>
+$(function (){
+	
+});
+function querybutton(){
+	jQuery.ajax({
+		  type: 'POST',
+		  url:'/weixin/buttonset',
+		  cache:false,
+		  success: function (result){
+			  $("#buttonset").html(result);
+				  
+		  },
+		  dataType: 'html',
+		  async:false, /*同步请求，请求过程中锁住浏览器*/
+		  beforeSend:function(XHR){/* 在请求返回前显示正在查询的图片 */
+			  $("#buttonset").html(_strLoading);
+		  },
+		  error:function(XHR,msg,err){
+			  $("#buttonset").html("");
+			  alert("查询操作出现异常"+msg);			  
+		  }
+		});
+}
+
+function querycount(){
+	jQuery.ajax({
+		  type: 'POST',
+		  url:'/weixin/countset',
+		  cache:false,
+		  success: function (result){
+			  $("#countset").html(result);
+		  },
+		  dataType: 'html',
+		  async:false, /*同步请求，请求过程中锁住浏览器*/
+		  beforeSend:function(XHR){/* 在请求返回前显示正在查询的图片 */
+			  $("#countset").html(_strLoading);
+		  },
+		  error:function(XHR,msg,err){
+			  $("#countset").html("");
+			  alert("查询操作出现异常"+msg);			  
+		  }
+		});
+}
+</script>
+
+
+#********  页尾 ********#
+#parse("weixin/html/part/footer.html") 

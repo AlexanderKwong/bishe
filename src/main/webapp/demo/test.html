@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="/demo/jquery.js"></script>
+<script type="text/javascript">
+//  	$(function(){				
+// 		 var url = 'http://yw.52ku.com:8080/rpt/classdetaildata/15/10024';
+// 	         $.ajax({
+// 	             type: 'GET',
+// 	             url: url,
+// 	             async: false,
+// 	             //jsonpCallback: 'getEmployeeCallback',
+// 	             dataType: 'jsonp',
+// 	             success: function(json, tt) {     	            	 
+// 	                  $('#divcontent').html(JSON.stringify(json));              
+// 	             },
+// 	             error:function(msg, url, line)
+// 	             {
+// 	            	 $('#divcontent').html(msg);
+// 	             }
+// 	         });				
+// 	}) 
+
+	$(function(){				
+		 	 var url = 'https://api.weibo.com/2/short_url/shorten.json';
+	         $.ajax({
+	             type: 'GET',
+	             url: url,
+	             async: false,
+	             //jsonpCallback: 'getEmployeeCallback',
+	             data:"url_long=http://v.52ku.com&url_long=http://www.12580.net&access_token=2.005tMumDD6ukQD5b0174837dnJeZmB",
+	             dataType: 'jsonp',
+	             success: function(json) {     	            	 
+	                  $('#divcontent').html(JSON.stringify(json));              
+	             },
+	             error:function(msg, url, line)
+	             {
+	            	 $('#divcontent').html(msg);
+	             }	             
+	         });				
+	})	
+</script>
+</head>
+<body>
+	<div id="divcontent">测试内容</div>
+</body>
+</html>

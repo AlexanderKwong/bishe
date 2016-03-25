@@ -1,0 +1,49 @@
+#******* 头部   ********#
+#set($title="全课网")
+#parse("weixin/html/part/header.html")
+ <style>
+.form-signin input[type="text"] {
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+</style>
+<script>
+$(function (){
+	
+	function onBridgeReady(){
+	 WeixinJSBridge.call('hideOptionMenu');
+	}
+
+	if (typeof WeixinJSBridge == "undefined"){
+	    if( document.addEventListener ){
+	        document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+	    }else if (document.attachEvent){
+	        document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+	        document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+	    }
+	}else{
+	    onBridgeReady();
+	}
+});
+</script>
+<div style="text-align: center;" id="main" class="container">
+    <div class="page-header">
+        <h4>您已经与全课网·云阅卷账号成功绑定！</h4>
+    </div>
+    <p class="lead">您可以继续以下操作：</p>
+	<p class="lead"><a role="button" class="btn btn-success" href="http://yyj.52ku.com/tifen/student/student_score_report/?weixin=$!weixin">我的成绩报告</a>
+<!-- 	&nbsp;&nbsp;<a role="button" class="btn btn-default" href="#">重新绑定</a> -->
+	</p>
+	<p class="lead">或返回酷学院微信体验其他功能</p>
+</div>
+
+
+#********  页尾 ********#
+#parse("weixin/html/part/footer.html") 

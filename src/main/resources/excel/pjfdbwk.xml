@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<models>
+	<model id="pjfdbwkcity" class="java.util.HashMap">
+		<property name="SCH_NAME" column="1" excelTitleName="学校、区县" dataType="String"  viewLength="30" />
+		<property name="YWJF" column="2" excelTitleName="语文均分" dataType="String" />
+		<property name="YWMC" column="3" excelTitleName="语文名次" dataType="String" />
+		<property name="YYJF" column="4" excelTitleName="英语均分" dataType="String" />
+		<property name="YYMC" column="5" excelTitleName="英语名次" dataType="String" />
+		<property name="DLJF" column="6" excelTitleName="地理均分" dataType="String" />
+		<property name="DLMC" column="7" excelTitleName="地理名次" dataType="String" />
+		<property name="LSJF" column="8" excelTitleName="历史均分" dataType="String" />
+		<property name="LSMC" column="9" excelTitleName="历史名次" dataType="String" />
+		<property name="ZZJF" column="10" excelTitleName="政治均分" dataType="String" />
+		<property name="ZZMC" column="11" excelTitleName="政治名次" dataType="String" />
+		<property name="WSXJF" column="12" excelTitleName="文科数学均分" dataType="String" />
+		<property name="WSXMC" column="13" excelTitleName="文科数学名次" dataType="String" />
+		<property name="WZJF" column="14" excelTitleName="文综均分" dataType="String" />
+		<property name="WZMC" column="15" excelTitleName="文综名次" dataType="String" />
+		<property name="SUMJF" column="16" excelTitleName="文科总分均分" dataType="String" />
+		<property name="SUMMC" column="17" excelTitleName="文科总分名次" dataType="String" />
+	</model>
+</models>

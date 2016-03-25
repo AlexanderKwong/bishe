@@ -1,0 +1,42 @@
+.ziti { /*居中的句点间隔号*/
+	font: 400 20px/1.6 "\5FAE\8F6F\96C5\9ED1", "\534E\6587\7EC6\9ED1",
+		"\9ED1\4F53";
+	background: url(../images/dot.jpg) no-repeat 0 50%;
+	color: #666;
+	padding-left: 10px;
+}
+
+
+.form-signin {
+	max-width: 580px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: normal;
+}
+
+.form-signin .form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin td {
+	padding: 10px 0px;
+}
+
+ 
