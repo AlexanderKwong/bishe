@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<models>
+	<model id="xkfxcity" class="java.util.HashMap">
+		<property name="SUBJECT_NAME" column="1" excelTitleName="科目" dataType="String" />
+		<property name="TAKE_EXAM_NUM" column="2" excelTitleName="人数" dataType="String" />
+		<property name="SUB_DIFFICULT" column="3" excelTitleName="主观题卷难度" dataType="String" viewLength="15"/>
+		<property name="OBJ_DIFFICULT" column="4" excelTitleName="非主观题卷难度" dataType="String" viewLength="15"/>
+		<property name="STU_SCORE_DIFFICUT" column="5" excelTitleName="全卷难度" dataType="String" viewLength="15"/>
+		<property name="SUB_DIFFENCE" column="6" excelTitleName="主观题卷区分度" dataType="String" viewLength="15"/>
+		<property name="OBJ_DIFFENCE" column="7" excelTitleName="非主观题卷区分度" dataType="String" viewLength="15"/>
+		<property name="STU_SCORE_DIFFERENT" column="8" excelTitleName="全卷区分度" dataType="String" viewLength="15"/>
+		<property name="SUB_RELIABILITY" column="9" excelTitleName="主观题卷信度" dataType="String" viewLength="15"/>
+		<property name="OBJ_RELIABILITY" column="10" excelTitleName="非主观题卷信度" dataType="String" viewLength="15"/>
+		<property name="STU_SCORE_RELIABILITY" column="11" excelTitleName="全卷信度" dataType="String" viewLength="15"/>
+	</model>
+</models>

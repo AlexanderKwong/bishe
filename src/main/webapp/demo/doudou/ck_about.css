@@ -1,0 +1,107 @@
+
+
+
+.topbg{ width:100%; height:560px; background:url(topbg.jpg) repeat-x;}
+.top_wrap{ width:980px; padding:0 0 10px 0; margin:auto}
+.wrap{width:980px; padding:0 0 10px 0; margin:auto}
+.wrap .main{ padding:10px;}
+.zw1{ font-size:14px; line-height:25px; margin-bottom:15px;}
+
+
+.rlogo{float:left;font-size:24px;font-family:'microsoft yahei';height:35px;line-height:35px;margin:35px 0 0 280px;padding-left:15px; font-weight:100;border-left:1px solid #ddd;color:#333;}
+
+
+
+.side a{color:#333;}
+.side a:hover{color:#f60;}
+
+
+.sideNav{width:150px;float:left;}
+.sideNav a{width:150px;height:35px;line-height:35px;text-align:center;display:block;border-bottom:1px solid #ddd;font-size:14px;font-family:'microsoft yahei',sans-serif;}
+.sideNav a.alnavh{width:157px;background:url("http://res.ckimg.com/sites/www/v2/images/public/ck_about/lh.gif") no-repeat center;border-bottom:none;color:#fff;position:relative;top:-1px;right:4px;padding-right:4px;font-weight:bold;}
+
+
+
+
+.steacher{border:1px solid #ffe8bc;}
+.steacher a{height:25px;line-height:25px;display:block;padding-left:20px;background:url("http://www.chuanke.com/images/a3.gif") no-repeat 10px 10px;margin:5px;}
+.steacher a:hover{background-color:#fff4df; text-decoration:none;}
+.steacher .steacherbar{background:#fff4df;font-size:14px;padding:2px 10px;}
+.steacher .steacherbar a{padding:0;background:none;border:0;margin:0;}
+.steacher .steacherbar a:link,
+.steacher .steacherbar a:visited{color:#c30;}
+.steacher .steacherbar a:hover,
+.steacher .steacherbar a:active{color:#c00;}
+
+.sstudent{border:1px solid #c7ecb4;}
+.sstudent a{height:25px;line-height:25px;display:block;padding-left:20px;background:url("http://www.chuanke.com/images/a3.gif") no-repeat 10px 10px;margin:5px;}
+.sstudent a:hover{background-color:#def7d2; text-decoration:none;color:#360;}
+.sstudent .sstudentbar{background:#def7d2;font-size:14px;padding:2px 10px;}
+.sstudent .sstudentbar a{padding:0;background:none;border:0;margin:0;}
+.sstudent .sstudentbar a:link,
+.sstudent .sstudentbar a:visited{color:#360;}
+.sstudent .sstudentbar a:hover,
+.sstudent .sstudentbar a:active{color:#030;}
+
+.srightbar{border-bottom:1px solid #EEEEEE;font-size:18px;margin-bottom:10px; font-family:"微软雅黑", "黑体";padding-bottom:10px;}
+.srightcon {font-size:14px;line-height:26px;padding:10px;}
+.sebar{padding:5px 10px;margin:0px 0 10px 0;font-size:18px;background:#f60;color:#fff;position:relative;}
+.sarrow{position:absolute;bottom:-5px;left:20px;width:10px;height:5px;line-height:5px;overflow:hidden;zoom:1;background:url("http://res.ckimg.com/sites/www/v2/images/public/service/sarrow1.gif") no-repeat;}
+.sebar1{padding:5px 10px;margin:20px 0 10px 0;font-size:18px;background:#56a71f;color:#fff;position:relative;}
+.sarrow1{position:absolute;bottom:-5px;left:20px;width:10px;height:5px;line-height:5px;overflow:hidden;zoom:1;background:url("http://res.ckimg.com/sites/www/v2/images/public/service/sarrow.gif") no-repeat;}
+
+.div1{width:130px;padding:10px;}
+.div2{position:fixed;_position:absolute;top:0;z-index:190;}
+
+
+
+.aboutContent .main{width:785px;float:left;border-left:1px solid #ddd;padding-left:35px;line-height:22px;color: #333333;font-family: "微软雅黑","宋体",Tahoma;font-size:12px;}
+.aboutContent .main .title_bar{height:58px;border-bottom:1px solid #ddd;}
+.aboutContent .main .title_bar h1{height:55px;line-height:55px;display:block;float:left;border-bottom:3px solid #f60;font-size:22px;font-family:'Microsoft YaHei';color:#f60;text-align:center;}
+.aboutContent .main .ac_detail{padding:5px 15px;line-height:28px;font-size:14px;}
+.aboutContent .main .ac_detail .list{padding:0 0 18px 26px;font-size:12px;}
+.aboutContent .main .ac_detail p{margin:15px 0; text-indent:28px;font-size:12px;}
+.aboutContent .main .ac_detail .zp_table{border-collapse:collapse;font-size:12px;margin-top:15px;}
+.aboutContent .main .ac_detail .zp_table .c_f30,.aboutContent .ac_detail .zp_table .c_f30:visited{color:#f30;}
+.aboutContent .main .ac_detail .zp_table .c_f30:hover{color:#f60;}
+.aboutContent .main .ac_detail .zp_table .ff60{color:#f60;}
+.aboutContent .main .ac_detail .zp_table .table_head{background:#f4f4f4;color:#666;}
+.aboutContent .main .ac_detail .zp_table td{border:1px solid #dadbdb;}
+.aboutContent .main .cp_ts{width: 605px;margin:10px 0 0 20px;}
+.aboutContent .main .kkbar{border-bottom:1px solid #ccc;padding:0 0 15px 0;}
+.aboutContent .main .kkbar span{float:right;}
+.aboutContent .main .kkcon{}
+.aboutContent .main .kkcon ul{height:105px;padding:15px 0 10px 0;background:url("http://res.ckimg.com/sites/www/v2/images/line.gif") no-repeat center bottom;}
+.aboutContent .main .kkcon ul.ulnobg{background:none;padding:15px 0 0 0;}
+.aboutContent .main .kkcon ul li{width:190px;padding-left:90px;margin:0 10px;float:left;display:inline;}
+.aboutContent .main .kkcon ul li h1{font-size:14px;}
+.aboutContent .main .kkcon ul li h1 span{font-size:12px;font-weight:100;color:#5c5c5c;padding-left:15px;}
+.aboutContent .main .kkcon ul li h2{font-size:12px;font-weight:100;padding-top:10px;}
+.aboutContent .main .kkcon ul li.ts1{background:url("http://res.ckimg.com/sites/www/v2/images/public/ck_about/bg_ts1.gif") no-repeat left top;}
+.aboutContent .main .kkcon ul li.ts2{background:url("http://res.ckimg.com/sites/www/v2/images/public/ck_about/bg_ts2.gif") no-repeat left top;}
+.aboutContent .main .kkcon ul li.ts3{background:url("http://res.ckimg.com/sites/www/v2/images/public/ck_about/bg_ts3.gif") no-repeat 5px top;}
+.aboutContent .main .kkcon ul li.ts4{background:url("http://res.ckimg.com/sites/www/v2/images/public/ck_about/bg_ts4.gif") no-repeat left top;}
+.aboutContent .main .kkcon ul li.ts5{background:url("http://res.ckimg.com/sites/www/v2/images/public/ck_about/bg_ts5.gif") no-repeat 5px top;}
+.aboutContent .main .kkcon ul li.ts6{background:url("http://res.ckimg.com/sites/www/v2/images/public/ck_about/bg_ts6.gif") no-repeat 10px top;}
+
+
+.xieyi_wrap{padding:20px 50px;font-size:14px;font-family:'microsoft yahei';color:#666;}
+.xieyi_title{text-align:center;padding-bottom:15px;border-bottom:1px solid #ccc;margin-bottom:15px;}
+.xieyi_title h1{font-size:26px;}
+.xieyi{line-height:26px; text-indent:24px;}
+.xieyi p{margin:10px 0;}
+.xieyi strong{font-weight:700;}	
+
+
+.arlink{border-left:1px solid #ddd;padding:0 35px;}
+.arbar{height:58px;border-bottom:1px solid #ddd;}
+.arbar h1{width:105px;height:55px;line-height:55px;display:block;float:left;border-bottom:3px solid #f60;font-size:22px;font-family:'Microsoft YaHei';color:#f60;text-align:center;}
+.arbar span{float:right;font:100 14px/30px 'Microsoft YaHei';padding:20px 10px 0 0}
+.arcon{padding:5px 15px;line-height:28px;font-size:14px;}
+.arcon p{margin:15px 0; text-indent:28px;}
+.arcon .rb{height:30px;line-height:30px;border-bottom:1px solid #ddd;font-weight:bold;margin:10px 0;padding:5px 0;font-size:16px;padding-left:5px;color:#f60;}
+.arcon .rc{padding:0 10px 10px 10px;}
+.link_bar{font:bold 14px/30px Microsoft YaHei;padding:10px;border-bottom:1px solid #eee;}
+.link_con{}
+.link_con li{width:178px;float:left;font-size:12px;}
+.link_con li a{color:#777;}.link_con li a:hover{color:#f60;}

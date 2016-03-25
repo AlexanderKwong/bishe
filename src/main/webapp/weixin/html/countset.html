@@ -1,0 +1,104 @@
+<script type="text/javascript" src="/weixin/js/jquery.treeview/jquery.treeview.js"></script>
+    <script type="text/javascript" src="/weixin/js/jquery.treeview/jquery.treeview.async.js"></script>
+    <script type="text/javascript" src="/weixin/js/jquery.treeview/jquery.treeview.edit.js"></script>
+    <script type="text/javascript" src="/weixin/js/jquery.treeview/lib/jquery.cookie.js"></script>    
+    <link href="/weixin/js/jquery.treeview/jquery.treeview.css" rel="stylesheet" type="text/css" />          
+    <script type="text/javascript">
+    		$("#btnOK").button();
+			$("#btnCancel").button();		
+			
+    		
+			$("#browser").treeview({
+				url: "/weixin/querybutton",				
+				// add some additional, dynamic data and request with POST
+				ajax: {
+					data: {
+						"additional": function() {
+							return "yeah: " + new Date;
+						}
+					},
+					type: "post"
+				},
+				DblClickClass: "file",
+				DblClickclassEvent: function()
+				{
+					var data="wbId="+$(this).attr("treeid");
+					queryDetail(data);
+					//查看是否已选定
+// 					var selectedItmes = $(".selectedItem[id='" + $(this).attr("treeid") + "']");
+					
+// 					if(selectedItmes.length == 0)
+// 					{
+// 						$("#selected").append("<span  ondblclick='delseled(this)' id=" + $(this).attr("treeid") + " class='selectedItem'>" + $(this).html() + "</span>")}
+// 					else
+// 					{
+// 						alert("\"" + $(this).html() + "\"已被选定。");
+// 					}
+				},			
+
+				//persist: "location",
+				collapsed: true
+				//unique: true
+			});
+			
+			$("#browser1").treeview({
+					persist: "location",
+					collapsed: true,
+					unique: true
+				});			
+			function queryDetail(params){
+				base.pageLoad({	
+					"url":'/background/html/weixin_manager.do?action=querydetail',
+					"searchParameters":params,
+					"showdivId":"dvlist"
+				});
+			}
+			
+	</script>
+<table width="100%" border="0" cellpadding="0" cellspacing="1"
+	bgcolor="#DFF0F7">
+
+	<tbody>
+
+
+		<tr align="left" bgcolor="#FFFFFF"
+			>
+
+			<td width="30%" class="aligntd">
+				<div id="tab" class="tabContent">
+		            <ul id="browser" class="filetree">
+		            		#foreach($list in $page.list)
+								<li id="$list.wbId" class="hasChildren"  >
+									<span class="folder">$list.name</span>
+									<ul>
+										<li><span class="placeholder">&nbsp;</span></li>
+									</ul>
+<!-- 									<span class="file" treeid="$list.wbId">$list.name</span> -->
+									
+								</li>            		
+		                    #end
+		            </ul>                            
+		        </div>
+			</td>
+
+
+			<td class="aligntd"><div id="dvlist"></div></td>
+ 
+			
+
+
+		</tr>
+
+
+	</tbody>
+
+
+</table>
+<style type="text/css">
+.active {
+	background-color: #FF0000 !important;
+}
+.aligntd{
+		vertical-align:top;
+	}
+</style>
