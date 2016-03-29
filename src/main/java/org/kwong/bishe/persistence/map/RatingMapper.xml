@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.kwong.bishe.persistence.client.RatingMapper" >
+
+<sql id="baseColumn">
+	  id ,
+	 userId,
+	 movieId,
+	 score,
+	 time
+</sql>
+
+ <select id="queryOne" resultType = "Rating">
+	 select
+	<include refid="baseColumn"></include>
+	 from Rating
+	 <where>
+		 <if test="id!=null">
+			 and id = #{id}
+		 </if>
+
+	 </where>
+
+ </select>
+
+	<insert id="insertOne"  parameterType= "Rating">
+		<selectKey keyProperty="id" resultType="String" order="BEFORE">
+			select uuid()
+		</selectKey>
+		insert into Rating(<include refid="baseColumn"></include> )
+		VALUES(
+		#{id},
+		#{userId},
+		#{movieId},
+		#{score},
+		#{time}
+		)
+	</insert>
+</mapper>

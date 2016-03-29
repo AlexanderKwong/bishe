@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.kwong.bishe.persistence.client.TypeMapper" >
+
+<sql id="baseColumn">
+	  id as id,
+	 name as name
+</sql>
+
+ <select id="queryOne" resultType = "Type">
+	 select
+	<include refid="baseColumn"></include>
+	 from type
+	 <where>
+		 <if test="id!=null">
+			 and id = #{id}
+		 </if>
+
+	 </where>
+
+ </select>
+</mapper>

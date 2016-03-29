@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.kwong.bishe.persistence.client.MovieTypeMapper" >
+
+<sql id="baseColumn">
+	  id ,
+	 movieId,
+	 typeId
+</sql>
+
+ <select id="queryOne" resultType = "MovieType">
+	 select
+	<include refid="baseColumn"></include>
+	 from movie_type
+	 <where>
+		 <if test="id!=null">
+			 and id = #{id}
+		 </if>
+
+	 </where>
+
+ </select>
+
+	<insert id="insertOne"  parameterType= "MovieType">
+		<selectKey keyProperty="id" resultType="String" order="BEFORE">
+			select uuid()
+		</selectKey>
+		insert into movie_type(<include refid="baseColumn"></include> )
+		VALUES(
+		#{id},
+		#{movieId},
+		#{typeId}
+		)
+	</insert>
+</mapper>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.kwong.bishe.persistence.client.UserMapper" >
+
+<sql id="baseColumn">
+	  id ,
+	 name,
+	 gender,
+	 age ,
+	 occupation
+</sql>
+
+ <select id="queryOne" resultType = "User">
+	 select
+	<include refid="baseColumn"></include>
+	 from USER
+	 <where>
+		 <if test="id!=null">
+			 and id = #{id}
+		 </if>
+
+	 </where>
+
+ </select>
+
+	<insert id="insertOne"  parameterType= "User">
+		insert into USER(<include refid="baseColumn"></include> )
+		VALUES(
+		#{id},
+		#{name},
+		#{gender},
+		#{age},
+		#{occupation}
+		)
+	</insert>
+</mapper>
